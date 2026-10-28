@@ -1,0 +1,31 @@
+# Core
+numpy==2.4.3
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+tqdm==4.68.3
+
+# Plotting / EDA
+matplotlib==3.10.8
+seaborn==0.13.2
+py3Dmol==2.5.5
+requests==2.34.2
+biopython==1.87
+
+# Deep learning
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+
+# Protein language models
+# NOTE: fair-esm and esm (EvolutionaryScale) both install a top-level esm package
+fair-esm==2.0.0
+esm==3.2.1.post1
+transformers==4.48.1
+tokenizers==0.21.4
+safetensors==0.8.0
+huggingface_hub==0.36.2
+sentencepiece==0.2.2
+protobuf==7.35.1
+
+# Notebooks
+ipykernel==7.2.0
